@@ -15,7 +15,7 @@ const TeamsProvider = ({children}) => {
   const [selectedTeams, setSelectedTeams] = useState([]);
 
   useEffect(() => {
-      axios.get('http://localhost:8080/unit')
+      axios.get('http://localhost:2222/unit')
         .then(response => {
 
           console.log(JSON.stringify(response.data));
