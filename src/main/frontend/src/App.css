@@ -1,0 +1,40 @@
+.App {
+  margin: 0px 30px 0px 30px;
+}
+
+.rct-collapse {
+  min-width: 18px;
+}
+
+.rct-icon-expand-open {
+  max-width: 8px;
+}
+
+.rct-node-icon * {
+  display: inline-block;
+  margin: 0;
+  min-width: 16px;
+  max-width: 16px;
+}
+
+.rct-icon-half-check {
+  opacity: .5;
+}
+
+.flexWrap {
+  display: flex;
+}
+
+.left {
+  min-width: 55%;
+}
+
+.right {
+  width: 45%;
+  overflow : hidden;
+}
+
+.uuid-results {
+  word-break: break-all;
+  max-width: 100%;
+}
